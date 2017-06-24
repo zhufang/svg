@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .svg{
+            display: block;
+            width: 300px;
+            height: 400px;
+            margin: 50px auto;
+            border: 2px solid yellow;
+        }
+        .svg path{
+            stroke-dasharray: 908;
+            stroke-dashoffset: -650px;
+        }
+        svg path{
+            -webkit-transition: all .4s cubic-bezier(0.455,0.05,0.55,0.95);
+            -moz-transition: all .4s cubic-bezier(0.455,0.05,0.55,0.95);
+            transition: all .4s cubic-bezier(0.455,0.05,0.55,0.95);
+        }
+        .svg:hover svg path{
+            stroke-dasharray: 908;
+            stroke-dashoffset: 0px;
+        }
+
+    </style>
+</head>
+<body>
+<a class="svg">
+    <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251px" height="142px" viewBox="0 0 249 142" enable-background="new 0 0 251 142" xml:space="preserve">
+        <path fill-rule="evenodd" clip-rule="evenodd" stroke="#a29061" stroke-width="4" fill="none" d="M2,124V19h30L45,8l13,11h191"></path>
+		<path fill-rule="evenodd" clip-rule="evenodd" stroke="#a29061" stroke-width="4" fill="none" d="M2,122h246V19"></path>
+	</svg>
+</a>
+<a class="svg">
+    <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251px" height="142px" viewBox="0 0 249 142" enable-background="new 0 0 251 142" xml:space="preserve">
+        <path fill-rule="evenodd" clip-rule="evenodd" stroke="#a29061" stroke-width="4" fill="none" d="M2,124V19h30L45,8l13,11h191"></path>
+		<path fill-rule="evenodd" clip-rule="evenodd" stroke="#a29061" stroke-width="4" fill="none" d="M2,122h246V19"></path>
+	</svg>
+</a>
+</body>
+</html>
